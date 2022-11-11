@@ -1,0 +1,99 @@
+!! Natura by quandar (http://deletefactory.net/quandar)
+
+!! Global Width
+window.handle.width: 2
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.Width: 1
+padding.width: 2
+
+window.active.border.color: {col_0}
+window.inactive.border.color: {col_0}
+menu.border.color: {col_0}
+menu.overlap: 0
+window.frameColor: #eeeeee
+window.*.client.color: #eeeeee
+*.text.justify: left
+
+!! Menu
+menu.title.bg: flat gradient split
+menu.title.bg.color: {col_0}
+menu.title.bg.colorTo: {col_0}
+menu.title.text.color: {col_7}
+
+menu.items.bg: flat solid
+menu.items.bg.color: {col_0}
+
+menu.items.text.color: {col_5}
+menu.items.disabled.text.color: #a09c90
+
+menu.items.active.bg: flat gradient split
+menu.items.active.bg.color:  #5c4e45
+menu.items.active.bg.colorTo:#51443e
+menu.items.active.text.color: {col_7}
+
+!! Active Windows
+window.active.title.bg: flat gradient split
+window.active.title.bg.color: {col_0}
+window.active.title.bg.colorTo: {col_0}
+window.active.*.bg.border.color: #000000
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: {col_7}
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #f9f2ee
+window.active.button.*.bg.border.color: #4e5860
+
+window.active.button.hover.bg.color: {col_0}
+window.active.button.hover.bg.border.color: {col_0}
+window.active.button.pressed.bg.color: {col_0}
+window.active.button.pressed.bg.colorTo: {col_0}
+window.active.button.pressed.image.color: {col_5}
+window.active.button.pressed.bg.border.color: {col_0}
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: {col_0}
+
+window.active.handle.bg:  flat solid
+window.active.handle.bg.color:#51443e
+
+window.*.grip.bg:  flat solid 
+window.*.grip.bg.color: #51443e
+
+window.handle.width: 2
+
+!! Inactive Windows
+window.inactive.title.bg: flat gradient vertical
+window.inactive.title.bg.color: {col_0}
+window.inactive.title.bg.colorTo: {col_0}
+window.inactive.*.border.color: #bfbfbf
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: {col_7}
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.bg.color: #eeeeee
+window.inactive.button.*.image.color:  #b6b6b6
+window.inactive.button.*.bg.border.color: #c9c9c9
+
+window.inactive.button.pressed.bg.color: {col_0}
+window.inactive.button.pressed.bg.border.color: {col_0}
+window.inactive.button.pressed.image.color: {col_5}
+
+window.inactive.button.hover.bg.color: {col_0}
+window.inactive.button.hover.bg.border.color: {col_0}
+window.inactive.button.hover.image.color: {col_7}
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: {col_0}
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: {col_0}
+window.inactive.grip.bg:  parentrelative
+
+!! Fonts
+window.active.label.text.font: shadow=y:shadowoffset=1:shadowtint=75
+window.inactive.label.text.font: shadow=y:shadowoffset=1:shadowtint=0
+menu.items.font: 
+menu.title.text.font: shadow=y:shadowoffset=1:shadowtint=75
