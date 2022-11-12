@@ -1,0 +1,72 @@
+/* import colors from wal */
+:root {
+        --color0: #010911;
+        --color1: #017198;
+        --color2: #4E7587;
+        --color3: #138BA7;
+        --color4: #028BB1;
+        --color5: #0FA7CF;
+        --color6: #4BBBDF;
+        --color7: #acdaeb;
+        --color8: #7898a4;
+        --color9: #017198;
+        --color10: #4E7587;
+        --color11: #138BA7;
+        --color12: #028BB1;
+        --color13: #0FA7CF;
+        --color14: #4BBBDF;
+        --color15: #acdaeb;
+        --color16: #010911;
+}
+
+.theme-dark {
+
+	--text-normal: var(--color2);
+	--header-primary: var(--color4);
+	--header-secondary: var(--color5);
+	--interactive-normal: var(--color4);
+	--background-primary: var(--color0);
+	--background-secondary: var(--color0);
+	--background-secondary-alt: var(--color0);
+	/* play with this one */
+	--background-tertiary: var(--color1);
+	--background-accent: var(--color3);
+	--background-floating: var(--color0);
+	--background-modifier-hover: var(--color6);
+	--background-modifier-active: var(--color4);
+	--background-modifier-selected: var(--color4);
+	--background-modifier-accent: var(--color1);
+	--background-mentioned: var(--color0);
+	--background-help-warning: red;
+	--interactive-hover: var(--color1);
+	--channels-default: var(--color4);
+	--interactive-active: var(--color3);
+	--interactive-muted: blue;
+	/* not just muted a lot of other things too */
+	--text-muted: var(--color2);
+	--scrollbar-thin-thumb: var(--color1);
+	--scrollbar-thin-track: var(--color0);
+	--scrollbar-auto-thumb: var(--color1);
+	--scrollbar-auto-track: var(--color0);
+	/* absolutely no idea what this is */
+	--scrollbar-auto-scrollbar-color-thumb: red;
+	--logo-primary: red;
+	--channeltextarea-background: var(--color0);
+	--activity-card-background: red;
+	--background-mobile-primary: red;
+	--background-mobile-secondary: red;
+	--background-help-info: red;
+	--radio-group-dot-foreground: red;
+	--focus-primary: red;
+	--deprecated-store-bg: red;
+	--text-markdown-syntax: red;
+	--deprecated-card-bg: red;
+	--scrollbar-auto-scrollbar-color-track: red;
+	--background-mentioned-hover: var(--color0);
+	--background-message-hover: var(--color0);
+}
+
+/* pesky background on friends list */
+.peopleList-3c4jOR {
+	background: var(--color0);
+}
