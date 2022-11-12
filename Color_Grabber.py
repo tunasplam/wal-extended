@@ -24,6 +24,22 @@ class Color_Grabber:
 
         return cols
 
+    def grab_colors_dict():
+        """Grabs to colors from xresources and converts them to a dict
+
+        Returns:
+            dict: key: col[i] value: hex value for color i
+        """
+
+        cols_list = Color_Grabber.grab_colors()
+
+        cols_dict = {}
+
+        for i in range(9):
+            cols_dict['col_{}'.format(i)] = cols_list[i]
+
+        return cols_dict
+
     def update_colors_css():
         """
         Updates the css files that stores our color schemes. Note that there is
