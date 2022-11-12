@@ -2,6 +2,8 @@
 # if a rofi update adds the padding back(it shouldnt...) then
 # that could cause a problem that you may currently be troubleshooting.
 
+# TODO rofi theme is just totally broken. redo it possibly.
+
 from Color_Grabber import Color_Grabber
 from os import environ
 

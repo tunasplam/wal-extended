@@ -12,6 +12,9 @@
     - Gonna make it a try-catch on the file not found for opening the
     file.
 
+    # TODO top bar of sublime requires refresh to set colors.
+    # left file explorer not either.
+
 """
 
 from os import environ
