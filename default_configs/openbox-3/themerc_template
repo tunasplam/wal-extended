@@ -26,7 +26,7 @@ menu.items.bg: flat solid
 menu.items.bg.color: {col_0}
 
 menu.items.text.color: {col_5}
-menu.items.disabled.text.color: #a09c90
+menu.items.disabled.text.color: {col_8}
 
 menu.items.active.bg: flat gradient split
 menu.items.active.bg.color:  #5c4e45
