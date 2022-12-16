@@ -78,17 +78,9 @@ def verify_images():
 
 def create_reddit_instance():
     # Create a read-only instance.
-    try:
-        with open('.reddit_info', 'r') as f:
-            reddit_info = f.read().split('\n')
-
-    except FileNotFoundError:
-        print("Hmm looks like you lost your reddit client info file.")
-        raise
-
     reddit = Reddit(
-        client_id=reddit_info[0],
-        client_secret=reddit_info[1],
+        client_id=environ['REDDIT_CLIENT_ID'],
+        client_secret=environ['REDDIT_SECRET'],
         user_agent="test"
         )
     return reddit
